@@ -1,3 +1,10 @@
+<script >
+	import {Link} from 'svelte-navigator'
+</script>
+
+<div class="m-2">
+	<Link to="/" class="btn btn-success">kembali</Link>
+</div>
 <div class="mt-3 m-2">
 	<p>Kami Menyediakan bokep bokep jepang
 		terbaru . termontok , terlegit . yang mau request
