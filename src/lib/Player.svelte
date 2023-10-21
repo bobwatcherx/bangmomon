@@ -59,12 +59,9 @@ async function getdetail(){
       <iframe src={`https://fviplions.com/v/${fileInfo.file_code}`} width="100%" height="300px" frameborder="0" allowscrolling="no" allowfullscreen></iframe>
      <div class="container">
         <p style="font-weight:bold">{fileInfo.file_title}</p>
-      <a href={`http://ouo.io/qs/nvM0IVNA?s=${url_download}`}
-      style="width: 100%;"
-       target="_blank" class="btn btn-success">Download video dengan Iklan</a>
       <a href={`https://fviplions.com/d/${fileInfo.file_code}`}
       style="width: 100%;"
-      target="_blank" class="btn btn-primary mt-2 mb-2">Download video Tanpa Iklan</a>
+      target="_blank" class="btn btn-primary mt-2 mb-2">Download Bokep</a>
      </div>
     </div>
   {:else}
