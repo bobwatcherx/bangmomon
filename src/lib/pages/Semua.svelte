@@ -37,7 +37,7 @@
   <div class="container">
     {#if isLoading}
       <div style="display: flex; justify-content: center;" class="m-3">
-        <Spinner style="color: #e8139d; width: 100px; height: 100px;" />
+        <Spinner style="color: #12e3c0; width: 100px; height: 100px;" />
       </div>
       <p style="font-weight: bold; text-align: center;">Sedang Menyiapkan data ...</p>
     {:else}

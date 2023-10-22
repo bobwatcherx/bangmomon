@@ -54,12 +54,12 @@
       <iframe src={`https://filemoon.sx/e/${fileInfo.file_code}/${fileInfo.file_title}`} width="100%" height="300px" frameborder="0" allowscrolling="no" allowfullscreen></iframe>
       <div class="container">
         <p style="font-weight:bold">{fileInfo.file_title}</p>
-        <a href={`https://filemoon.sx/d/${fileInfo.file_code}/${fileInfo.file_title}`} style="width: 100%;" target="_blank" class="btn btn-primary mt-2 mb-2">Download Bokep</a>
+        <a href={`http://ouo.io/qs/nvM0IVNA?s=https://filemoon.sx/d/${fileInfo.file_code}/${fileInfo.file_title}`} style="width: 100%;" target="_blank" class="btn btn-primary mt-2 mb-2">Download Bokep</a>
       </div>
     </div>
   {:else}
     <div style="display: flex;justify-content: center;" class="m-3">
-      <Spinner style="color:orange;width: 100px;height: 100px;" />
+      <Spinner style="color:#12e3c0;width: 100px;height: 100px;" />
     </div>
   {/if}
 </div>
@@ -69,7 +69,7 @@
   <h4 style="font-weight:bold">Video Lainnya</h4>
   {#if fileInfo == null}
     <div style="display: flex;justify-content: center;" class="m-3">
-      <Spinner style="color:orange;width: 100px;height: 100px;" />
+      <Spinner style="color:#12e3c0;width: 100px;height: 100px;" />
     </div>
   {:else}
     {#each relatedVideos as video (video.thumbnail)}
