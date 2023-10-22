@@ -45,13 +45,13 @@
 </script>
 
 <div class="container mt-3">
-  <Link class="btn btn-primary" to="/" target="_blank">Kembali</Link>
+  <Link class="btn btn-danger" to="/" target="_blank">Kembali</Link>
 </div>
 
 <div class="mt-2">
   {#if fileInfo}
     <div>
-      <iframe src={`https://filemoon.sx/e/${fileInfo.file_code}/${fileInfo.file_title}`} width="100%" height="300px" frameborder="0" allowscrolling="no" allowfullscreen></iframe>
+      <iframe src={`https://filemoon.sx/e/${fileInfo.file_code}/${fileInfo.file_title}`} width="100%" height="320px" frameborder="1" allowscrolling="no" allowfullscreen></iframe>
       <div class="container">
         <p style="font-weight:bold">{fileInfo.file_title}</p>
         <a href={`http://ouo.io/qs/nvM0IVNA?s=https://filemoon.sx/d/${fileInfo.file_code}/${fileInfo.file_title}`} style="width: 100%;" target="_blank" class="btn btn-primary mt-2 mb-2">Download Bokep</a>
@@ -81,7 +81,7 @@
             <p>Ditonton: {video.views}</p>
             <p>Diupload: {video.uploaded}</p>
           </CardText>
-          <button on:click={()=>gotopage(video.file_code)} target="_blank" class="btn" style="background-color:orange;color: black;font-weight: bold;">Nonton Sekarang</button>
+          <button on:click={()=>gotopage(video.file_code)} target="_blank" class="btn" style="background-color:#f542b3;color: black;font-weight: bold;">Nonton Sekarang</button>
         </Card>
       </div>
     {/each}
