@@ -10,7 +10,7 @@
   let isLoading = true;
 
   async function fetchData(page, perPage) {
-    const response = await fetch(`https://filemoon.sx/api/file/list?key=26604oo759r7ar6j96q7h&page=${page}&per_page=${perPage}`);
+    const response = await fetch(`https://filemoonapi.com/api/file/list?key=26604oo759r7ar6j96q7h&page=${page}&per_page=${perPage}`);
     const json = await response.json();
     data = json.result;
     isLoading = false;

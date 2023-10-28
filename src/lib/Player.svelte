@@ -15,14 +15,14 @@
 
   async function getdetail(){
     const fileCode = id;
-    const response = await fetch(`https://filemoon.sx/api/file/info?key=26604oo759r7ar6j96q7h&file_code=${fileCode}`);
+    const response = await fetch(`https://filemoonapi.com/api/file/info?key=26604oo759r7ar6j96q7h&file_code=${fileCode}`);
     const json = await response.json();
 
     fileInfo = json.result[0];
   }
 
    async function getrelated(){
-    const response = await fetch('https://filemoon.sx/api/file/list?key=26604oo759r7ar6j96q7h');
+    const response = await fetch('https://filemoonapi.com/api/file/list?key=26604oo759r7ar6j96q7h');
     const json = await response.json();
 
     const totalResults = json.result.results_total;
