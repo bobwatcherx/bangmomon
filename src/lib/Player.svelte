@@ -55,6 +55,9 @@
       <div class="container">
         <p style="font-weight:bold">{fileInfo.file_title}</p>
         <a href={`http://ouo.io/qs/nvM0IVNA?s=https://filemoon.sx/d/${fileInfo.file_code}/${fileInfo.file_title}`} style="width: 100%;" target="_blank" class="btn btn-primary mt-2 mb-2">Download Bokep</a>
+        <p style="margin:10px;padding:5px;color: red;font-weight: bold;">
+          Lewatin Iklan Ouo.io Kalo mau download bokep bos
+        </p>
       </div>
     </div>
   {:else}
